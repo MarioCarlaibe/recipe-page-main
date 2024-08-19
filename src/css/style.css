@@ -1,0 +1,158 @@
+body{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    background-color: var(--Stone-100);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 122px;
+    color: var(--Stone-600);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--White);
+    width: 738px;
+    height: 1710px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.header{
+    padding: 32px 0;
+}
+
+.header h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: var(--Stone-900);
+}
+
+.header p{
+    line-height: 1.5;
+}
+
+.preparation{
+    background-color: var(--Rose-50);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.preparation h3{
+    font-size: 20px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    color: var(--Rose-800);
+}
+
+.preparation ul li{
+    line-height: 2;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.preparation ul li::before{
+    content: "\2022";
+    color: var(--Rose-800);
+    font-weight: 900
+}
+
+.preparation ul li span{
+    margin-left: 27px;
+    font-weight: 700;
+}
+
+.subtitulos{
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--Brown-800);
+}
+
+.ingredients{
+    padding: 25px 0;
+}
+
+.ingredients .subtitulos{
+    margin-bottom: 15px;
+}
+
+.ingredients ul li{
+    line-height: 2;
+    margin-left: 24px;
+}
+
+.ingredients ul li::marker{
+    color: var(--Brown-800);
+}
+
+.ingredients ul li span{
+    margin-left: 17px;
+}
+
+.instructions{
+    margin: 28px 0;
+}
+
+.instructions .subtitulos{
+    margin-bottom: 16px;
+}
+
+.instructions ol li{
+    margin-left: 24px;
+    line-height: 1.78;
+}
+
+.instructions ol li span{
+    margin-left: 17px;
+    font-weight: 700;
+}
+
+.instructions ol li::marker{
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+
+.nutrition{
+    margin-top: 26px;
+}
+
+.nutrition p{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.nutrition .tabela-calorias div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 32px;
+    width: 610px;
+}
+
+.nutrition .text-caloria{
+    margin: 20px 0 15px;
+}
+
+.nutrition .tabela-calorias .destaque{
+    color: var(--Brown-800);
+    font-weight: 700;
+}
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    font-weight: 700; 
+}
