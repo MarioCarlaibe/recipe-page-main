@@ -1,0 +1,40 @@
+@media(max-width: 760px){
+    html body{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    body main{
+        width: 380px;
+        height: 2050px;
+        border-radius: 0;
+        padding: 32px;
+    }
+
+    body main .imagem{
+        margin: -32px -32px 5px;
+        border-radius: 0;
+    }
+
+    main .header h1{
+        font-size: 36px;
+        line-height: 1.1;
+
+    }
+
+    main .preparation ul li{
+        line-height: 1.9;
+    }
+
+    main .ingredients ul li{
+        line-height: 1.9;
+    }
+
+    main .instructions ol li{
+        line-height: 1.61;
+    }
+
+    main .nutrition .tabela-calorias div{
+        width: 260px;
+    }
+}

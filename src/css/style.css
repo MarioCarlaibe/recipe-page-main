@@ -2,10 +2,10 @@ body{
     font-family: "Outfit", sans-serif;
     font-size: 16px;
     background-color: var(--Stone-100);
-    height: 100vh;
     display: flex;
     justify-content: center;
     margin-top: 122px;
+    margin-bottom: 122px;
     color: var(--Stone-600);
 }
 
@@ -112,8 +112,11 @@ img{
     line-height: 1.78;
 }
 
+.instructions .list-number{
+    padding-left: 16px;
+}
+
 .instructions ol li span{
-    margin-left: 17px;
     font-weight: 700;
 }
 
